@@ -24,7 +24,7 @@ window.addEventListener('load', function () {
     setTimeout(function () {
         iziToast.show({
             title: hello,
-            message: '欢迎来到 Snavigation'
+            message: '欢迎来到 毕少侠搜索 [By Snavigation]'
         });
     }, 800);
 
@@ -87,7 +87,7 @@ function time() {
 //每日限量 100 次
 //请前往 https://www.tianqiapi.com/index/doc?version=v6 申请（免费）
 // https://v0.yiketianqi.com/api?unescape=1&version=v91&appid=43656176&appsecret=I42og6Lm&ext=
-fetch('https://yiketianqi.com/api?unescape=1&version=v91&appid=43656176&appsecret=I42og6Lm')
+fetch('https://yiketianqi.com/api?unescape=1&version=v91&appid=27672649&appsecret=jDA5WuiZ')
     .then(response => response.json())
     .then(data => {
         //$('#wea_text').html(data.wea + '&nbsp;' + data.tem_night + '℃' + '&nbsp;~&nbsp;' + data.tem_day + '℃')
